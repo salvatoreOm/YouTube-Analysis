@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Analysis</title>
+    <!-- Bootstrap CSS link (adjust the path if necessary) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("/images/bgbc.jpg"); /* Replace with your actual background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif; /* Updated font family */
+            color: #fff; /* Set text color to white */
+        }
+        .photo {
+            margin-bottom: 50px; /* Increased spacing between photos */
+            text-align: center; /* Center align contents */
+            max-width: 800px; /* Set a maximum width for the photo containers */
+            margin: 0 auto; /* Center the containers horizontally */
+        }
+        .photo img {
+            width: 100%; /* Ensure images take up the full width of their containers */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 600px; /* Set a maximum height for the images */
+        }
+        .caption {
+            font-size: 2.5rem; /* Increased font size for captions */
+            margin-top: 20px; /* Increased spacing above caption */
+            /* Beautiful text effect */
+            background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient colors */
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Text shadow for contrast */
+        }
+        .detail {
+            font-size: 1.5rem; /* Increased font size for details */
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.8); /* Lighter color for details */
+            margin-bottom: 30px; /* Increased spacing below details */
+        }
+        .footer-links {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .footer-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #0072ff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .footer-links a:hover {
+            background-color: #00c6ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5 mb-4">YouTube Analysis</h1>
+
+        <!-- Photo 1 -->
+        <div class="photo">
+            <img src="images/BarGraphofEmoji.png" class="img-fluid" alt="Photo 1">
+            <div class="caption">Emoji Vs Frequency</div>
+            <div class="detail">It's a bar graph displaying the frequency of each emoji in my dataset.</div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="photo">
+            <img src="images/ViewsvsLikes.png" class="img-fluid" alt="Photo 2">
+            <div class="caption">Views vs Likes Analysis</div>
+            <div class="detail">This is a regression model graph of views vs likes, in my dataset.</div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="photo">
+            <img src="images/CorrelationTableHeatmap.png" class="img-fluid" alt="Photo 3">
+            <div class="caption">Heat Map / Correlation table between likes, dislikes & views.</div>
+            <div class="detail">Heat Map / Correlation table between likes, dislikes & views according to my dataset.</div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="photo">
+            <img src="images/ChannelvsTotalvideos.png" class="img-fluid" alt="Photo 4">
+            <div class="caption">Channel vs Total Videos Uploaded</div>
+            <div class="detail">Analysed the total videos uploaded on every channel in my dataset.</div>
+        </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+        <a href="https://salvatoreom.github.io/MyWebsite/" target="_blank">Portfolio Website</a>
+        <a href="https://github.com/salvatoreOm/YouTube-Analysis/tree/main" target="_blank">Source Code</a>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (optional, for Bootstrap functionality) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
